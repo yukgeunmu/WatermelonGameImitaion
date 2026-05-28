@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23fe7293cf4a3041a6485deb0d6a5ab, type: 3}
+  m_Name: 11WatermelonData
+  m_EditorClassIdentifier: Assembly-CSharp::FruitData
+  Type: 10
+  sprite: {fileID: -674742748634659451, guid: cb3e160af31d1704685e491d55de6511, type: 3}
+  Order: 10
+  Score: 110
+  Radius: 1.5
+  NextFruit: 10
+  Prefab: {fileID: 1570454973850045056, guid: be396f24ac36aa94db0b2517c6e947a5, type: 3}

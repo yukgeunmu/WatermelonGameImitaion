@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23fe7293cf4a3041a6485deb0d6a5ab, type: 3}
+  m_Name: 6AppleData
+  m_EditorClassIdentifier: Assembly-CSharp::FruitData
+  Type: 5
+  sprite: {fileID: -7708055985754690430, guid: cb3e160af31d1704685e491d55de6511, type: 3}
+  Order: 5
+  Score: 60
+  Radius: 1
+  NextFruit: 6
+  Prefab: {fileID: 5370356579890086095, guid: d5b5fc4f6f2e4d843be54ae9055ecd7a, type: 3}

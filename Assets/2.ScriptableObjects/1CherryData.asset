@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23fe7293cf4a3041a6485deb0d6a5ab, type: 3}
+  m_Name: 1CherryData
+  m_EditorClassIdentifier: Assembly-CSharp::FruitData
+  Type: 0
+  sprite: {fileID: -5152274103117788480, guid: cb3e160af31d1704685e491d55de6511, type: 3}
+  Order: 0
+  Score: 10
+  Radius: 0.5
+  NextFruit: 1
+  Prefab: {fileID: 5080232887311656642, guid: a409b8ed10d530e4ea8aefbc9f22c813, type: 3}
