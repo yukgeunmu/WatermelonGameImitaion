@@ -128,17 +128,11 @@ UI 관리 구조를 단순화했습니다.
 
 # 📸 게임 화면
 
-## 시작 화면
-
-(스크린샷 추가 예정)
-
 ## 게임 플레이
 
-(스크린샷 추가 예정)
-
-## 옵션 UI
-
-(스크린샷 추가 예정)
+<p align="center">
+<img width="50%" alt="Image" src="https://github.com/user-attachments/assets/1aabd139-8db9-44af-a55f-50588b2d0775" />
+</p>
 
 ---
 
