@@ -8,8 +8,8 @@ public enum FruitType
     Orange,
     Persimmon,
     Apple,
-    Pear,
     Peach,
+    Pear,
     Pineapple,
     Melon,
     Watermelon

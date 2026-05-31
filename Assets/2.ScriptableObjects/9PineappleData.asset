@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 9PineappleData
   m_EditorClassIdentifier: Assembly-CSharp::FruitData
   Type: 8
-  sprite: {fileID: -3358480444301999999, guid: cb3e160af31d1704685e491d55de6511, type: 3}
+  sprite: {fileID: 499438961699057997, guid: 9b7ce9f756a81cc41a5e10a192e5ee15, type: 3}
   Order: 8
   Score: 90
   Radius: 1.3

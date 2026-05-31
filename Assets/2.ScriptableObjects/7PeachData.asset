@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f23fe7293cf4a3041a6485deb0d6a5ab, type: 3}
-  m_Name: 7PearData
+  m_Name: 7PeachData
   m_EditorClassIdentifier: Assembly-CSharp::FruitData
   Type: 6
-  sprite: {fileID: -3795780741540237495, guid: cb3e160af31d1704685e491d55de6511, type: 3}
+  sprite: {fileID: -6246956865906614486, guid: 9b7ce9f756a81cc41a5e10a192e5ee15, type: 3}
   Order: 6
   Score: 70
   Radius: 1.1
   NextFruit: 7
-  Prefab: {fileID: 1011859705302761810, guid: 3c10295f09b562c4dbc61fc6f5174f74, type: 3}
+  Prefab: {fileID: 7447720979042192242, guid: ba03dc7c87c02bb449e127ab0bd62632, type: 3}

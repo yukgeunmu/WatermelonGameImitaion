@@ -4,7 +4,7 @@ public class GameSceneController : MonoBehaviour
 {
     private void Awake()
     {
-        Game.Get<SoundManager>().PlayBGM(SoundType.MainBGM);
+        Game.Get<SoundManager>().StartGamSceneBGM();
 
         Manager.Instance.CreatePoolRoot();
 

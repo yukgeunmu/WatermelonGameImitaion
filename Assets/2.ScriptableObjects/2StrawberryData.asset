@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 2StrawberryData
   m_EditorClassIdentifier: Assembly-CSharp::FruitData
   Type: 1
-  sprite: {fileID: 6216824618355673371, guid: cb3e160af31d1704685e491d55de6511, type: 3}
+  sprite: {fileID: -5238093192087217658, guid: 9b7ce9f756a81cc41a5e10a192e5ee15, type: 3}
   Order: 1
   Score: 20
   Radius: 0.6

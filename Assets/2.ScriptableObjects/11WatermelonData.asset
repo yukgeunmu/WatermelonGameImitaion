@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 11WatermelonData
   m_EditorClassIdentifier: Assembly-CSharp::FruitData
   Type: 10
-  sprite: {fileID: -674742748634659451, guid: cb3e160af31d1704685e491d55de6511, type: 3}
+  sprite: {fileID: -3714558737065252089, guid: 9b7ce9f756a81cc41a5e10a192e5ee15, type: 3}
   Order: 10
   Score: 110
   Radius: 1.5

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 6AppleData
   m_EditorClassIdentifier: Assembly-CSharp::FruitData
   Type: 5
-  sprite: {fileID: -7708055985754690430, guid: cb3e160af31d1704685e491d55de6511, type: 3}
+  sprite: {fileID: -3265353539321082605, guid: 9b7ce9f756a81cc41a5e10a192e5ee15, type: 3}
   Order: 5
   Score: 60
   Radius: 1

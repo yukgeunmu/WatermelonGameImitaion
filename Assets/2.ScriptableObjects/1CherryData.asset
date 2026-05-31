@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1CherryData
   m_EditorClassIdentifier: Assembly-CSharp::FruitData
   Type: 0
-  sprite: {fileID: -5152274103117788480, guid: cb3e160af31d1704685e491d55de6511, type: 3}
+  sprite: {fileID: -3990966166298801999, guid: 9b7ce9f756a81cc41a5e10a192e5ee15, type: 3}
   Order: 0
   Score: 10
   Radius: 0.5

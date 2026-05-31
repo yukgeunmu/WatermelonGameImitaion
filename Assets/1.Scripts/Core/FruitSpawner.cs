@@ -99,6 +99,7 @@ public class FruitSpawner : MonoBehaviour
         currentFruitData = null;
 
         SelectNextFruit();
+        CreatePreviewFruit();
     }
 
 

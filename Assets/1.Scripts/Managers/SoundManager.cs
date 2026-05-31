@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
-using static UnityEngine.Rendering.DebugUI;
 
 public class SoundManager : IManager
 {
@@ -56,8 +55,6 @@ public class SoundManager : IManager
 
         SetAudioClip();
 
-        PlayBGM(SoundType.StartBGM);
-
         LoadVolume();
     }
 
@@ -70,6 +67,11 @@ public class SoundManager : IManager
             AddClip(data.Key, data.Clip);
         }
 
+        PlayBGM(SoundType.StartBGM);
+    }
+
+    public void StartGamSceneBGM()
+    {
         PlayBGM(SoundType.MainBGM);
     }
 
@@ -90,7 +92,7 @@ public class SoundManager : IManager
         bgmSource.playOnAwake = false;
 
         sfxSource.playOnAwake = false;
-        
+
     }
 
     public void SetAudioMixer()
@@ -148,14 +150,11 @@ public class SoundManager : IManager
         if (clip == null)
             return;
 
-        if (bgmSource.clip == clip)
-            return;
-
-        bgmSource.clip = clip;
-
-        bgmSource.volume = volume;
-
-        bgmSource.Play();
+        if (bgmSource.clip != clip)
+        {
+            bgmSource.clip = clip;
+            bgmSource.Play();
+        }
     }
 
     public void StopBGM()
@@ -178,7 +177,7 @@ public class SoundManager : IManager
     {
         mixer.SetFloat("Master", ConvertToDecibel(volume));
 
-        PlayerPrefs.SetFloat( MASTER_VOLUME_KEY, volume);
+        PlayerPrefs.SetFloat(MASTER_VOLUME_KEY, volume);
 
         PlayerPrefs.Save();
     }
@@ -204,7 +203,7 @@ public class SoundManager : IManager
 
     private float ConvertToDecibel(float value)
     {
-        return Mathf.Log10(Mathf.Clamp(value, 0.0001f, 1f))* 20f;
+        return Mathf.Log10(Mathf.Clamp(value, 0.0001f, 1f)) * 20f;
     }
 
     private void OnFruitMerged(FruitMergedEvent evt)
@@ -215,37 +214,37 @@ public class SoundManager : IManager
 
     private void LoadVolume()
     {
-        float master = PlayerPrefs.GetFloat( MASTER_VOLUME_KEY, 1f);
+        float master = PlayerPrefs.GetFloat(MASTER_VOLUME_KEY, 1f);
 
         float bgm = PlayerPrefs.GetFloat(BGM_VOLUME_KEY, 1f);
 
-        float sfx = PlayerPrefs.GetFloat( SFX_VOLUME_KEY, 1f);
+        float sfx = PlayerPrefs.GetFloat(SFX_VOLUME_KEY, 1f);
 
         ApplyVolume(master, bgm, sfx);
     }
 
-    public void ApplyVolume( float master,  float bgm, float sfx)
+    public void ApplyVolume(float master, float bgm, float sfx)
     {
-        mixer.SetFloat(  "Master",  Mathf.Log10(master) * 20f);
+        mixer.SetFloat("Master", Mathf.Log10(master) * 20f);
 
-        mixer.SetFloat( "BGM",  Mathf.Log10(bgm) * 20f);
+        mixer.SetFloat("BGM", Mathf.Log10(bgm) * 20f);
 
-        mixer.SetFloat( "SFX", Mathf.Log10(sfx) * 20f);
+        mixer.SetFloat("SFX", Mathf.Log10(sfx) * 20f);
     }
 
     public float GetMasterVolume()
     {
-        return PlayerPrefs.GetFloat( MASTER_VOLUME_KEY, 1f);
+        return PlayerPrefs.GetFloat(MASTER_VOLUME_KEY, 1f);
     }
 
     public float GetBGMVolume()
     {
-        return PlayerPrefs.GetFloat(  BGM_VOLUME_KEY, 1f);
+        return PlayerPrefs.GetFloat(BGM_VOLUME_KEY, 1f);
     }
 
     public float GetSFXVolume()
     {
-        return PlayerPrefs.GetFloat( SFX_VOLUME_KEY, 1f);
+        return PlayerPrefs.GetFloat(SFX_VOLUME_KEY, 1f);
     }
 
     public void ResetVolume()

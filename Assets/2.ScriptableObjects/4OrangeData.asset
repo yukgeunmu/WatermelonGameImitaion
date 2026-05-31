@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 4OrangeData
   m_EditorClassIdentifier: Assembly-CSharp::FruitData
   Type: 3
-  sprite: {fileID: -8469914319044388565, guid: cb3e160af31d1704685e491d55de6511, type: 3}
+  sprite: {fileID: 4818777586940956219, guid: 9b7ce9f756a81cc41a5e10a192e5ee15, type: 3}
   Order: 3
   Score: 40
   Radius: 0.8

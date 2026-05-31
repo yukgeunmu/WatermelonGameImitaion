@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 10MelonData
   m_EditorClassIdentifier: Assembly-CSharp::FruitData
   Type: 9
-  sprite: {fileID: -5721774233841974970, guid: cb3e160af31d1704685e491d55de6511, type: 3}
+  sprite: {fileID: 1223489950826685059, guid: 9b7ce9f756a81cc41a5e10a192e5ee15, type: 3}
   Order: 9
   Score: 100
   Radius: 1.4

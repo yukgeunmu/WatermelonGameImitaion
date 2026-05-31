@@ -10,28 +10,28 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1170120729895061536, guid: 67edcfe0da8c6e2429b318f6e4b17198, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1170120729895061536, guid: 67edcfe0da8c6e2429b318f6e4b17198, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1170120729895061536, guid: 67edcfe0da8c6e2429b318f6e4b17198, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.043
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3480613193799272572, guid: 67edcfe0da8c6e2429b318f6e4b17198, type: 3}
       propertyPath: m_Size.x
-      value: 0.8
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: 3480613193799272572, guid: 67edcfe0da8c6e2429b318f6e4b17198, type: 3}
       propertyPath: m_Size.y
-      value: 0.98
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: 3480613193799272572, guid: 67edcfe0da8c6e2429b318f6e4b17198, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1752554576707464541, guid: cb3e160af31d1704685e491d55de6511, type: 3}
+      objectReference: {fileID: 2990770238056172192, guid: 9b7ce9f756a81cc41a5e10a192e5ee15, type: 3}
     - target: {fileID: 4711799623208988172, guid: 67edcfe0da8c6e2429b318f6e4b17198, type: 3}
       propertyPath: m_Name
       value: Grape
